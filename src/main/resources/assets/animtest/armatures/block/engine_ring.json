@@ -1,0 +1,21 @@
+{
+  "joints": {
+    "piston": { "0":  [ 1.0 ] }
+  },
+  "clips": {
+    "moving": {
+      "loop": true,
+      "joint_clips": {
+        "piston": [
+          {
+            "variable": "offset_y",
+            "type": "uniform",
+            "interpolation": "linear",
+            "samples": [0, 0.1, 0.25, 0.1]
+          }
+        ]
+      },
+      "events": {}
+    }
+  }
+}

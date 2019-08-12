@@ -1,0 +1,13 @@
+{
+  "parameters": {
+  },
+  "clips": {
+    "moving": "animtest:block/engine_ring@moving"
+  },
+  "states": [
+    "moving"
+  ],
+  "transitions": {
+  },
+  "start_state": "moving"
+}
